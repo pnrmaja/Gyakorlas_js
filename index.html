@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakk</title>
+    <script type="module" src="./index.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Híres sakkozók</h1>
+        </header>
+
+        <article>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th id="nev-fejlec">Név</th>
+                        <th id="nemzetiseg-fejlec">Nemzetiség</th>
+                        <th id="gyozelmek-fejlec">Győzelmek száma</th>
+                    </tr>
+                </thead>
+                <tbody id="tablazat-torzs"></tbody>
+            </table>
+        </article>
+
+        <section>
+            <h2>Sakktábla pozíciók</h2>
+            <div>
+                <label for="pozicio1">1. pozíció:</label>
+                <input type="text" id="pozicio1" name="pozicio1" placeholder="pl. e4">
+
+                <label for="pozicio2">2. pozíció:</label>
+                <input type="text" id="pozicio2" name="pozicio2" placeholder="pl. d5">
+
+                <button id="ellenoriz-gomb">Ellenőrzés</button>
+            </div>
+
+            <p id="eredmeny"></p>
+        </section>
+
+        <footer>
+            <p>&copy; Ponauer Maja</p>
+        </footer>
+    </main>
+</body>
+</html>
