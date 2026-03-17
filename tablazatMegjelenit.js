@@ -8,11 +8,10 @@ export function megjelenit(adat, tablazatElem) {
     `;
 }
 
-export function tablazatMegjelenito(sakkozok, tablazatElem) {
+export function tablazatMegjelenito(lista, tablazatElem) {
     tablazatElem.innerHTML = "";
 
-    for (let i = 0; i < sakkozok.length; i++) {
-        megjelenit(sakkozok[i], tablazatElem);
+    for (let i = 0; i < lista.length; i++) {
+        megjelenit(lista[i], tablazatElem);
     }
 }
-
